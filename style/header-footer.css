@@ -1,0 +1,58 @@
+        header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+        }
+        
+        #menu {
+            display: inline-flex;
+            width: 80%;
+        }
+        
+        a:link {
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: blue;
+        }
+        
+        a:hover {
+            color: rgb(0, 0, 153);
+        }
+        
+        #menu li {
+            color: blue;
+            font-weight: bold;
+            font-size: 2em;
+            margin-left: 15%;
+        }
+        
+        footer {
+            padding: 12px;
+            background-color: blue;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+        
+        #redes-sociais {
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        
+        #redes-sociais img {
+            width: 25px;
+        }
+        
+        footer li {
+            display: inline;
+            color: white;
+        }
+        /* @media screen (max-width: 600px) {
+
+    
+} */
