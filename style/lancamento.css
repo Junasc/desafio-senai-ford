@@ -1,0 +1,55 @@
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        padding: 15px;
+    }
+    
+    #lista-carros {
+        display: flex;
+        height: 300px;
+    }
+    
+    #lista-carros li {
+        display: inline;
+        padding: 15px;
+    }
+    
+    .info-carros {
+        display: flex;
+        align-items: center;
+    }
+    
+    .info-carros div {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+        color: blue;
+    }
+    
+    input[type=button] {
+        background-color: rgb(89, 89, 237);
+        color: white;
+        border: 0;
+        width: 150px;
+        height: 60px;
+        border-radius: 5px;
+        font-size: 1.5em;
+        font-weight: bold;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.19);
+    }
+    
+    input[type=button]:hover {
+        background-color: rgb(33, 33, 247);
+    }
+    
+    input[type=button]:active {
+        background-color: rgb(4, 4, 150);
+    }
+    
+    #button {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
