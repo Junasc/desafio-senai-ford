@@ -1,6 +1,10 @@
 #conteudo {
     text-align: center;
-    font-weight: bold;
+    width: auto;
     font-size: 1.5em;
     padding: 20px;
+}
+
+#conteudo img {
+    width: 95%;
 }

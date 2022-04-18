@@ -1,55 +1,75 @@
-    h1 {
-        text-align: center;
-        font-size: 3em;
-        padding: 15px;
-    }
-    
+h2 {
+    text-align: center;
+    font-size: 3em;
+    padding: 15px;
+}
+
+#lista-carros {
+    display: flex;
+    margin: 25px;
+    text-align: center;
+}
+
+.info-carros {
+    display: flex;
+    align-items: center;
+}
+
+.info-carros div {
+    padding: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: blue;
+}
+
+input[type=button] {
+    background: rgb(65, 124, 251);
+    color: white;
+    border: 0;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.19);
+}
+
+input[type=button]:hover {
+    background-color: rgb(44, 94, 176);
+    transform: scale(1.2);
+}
+
+input[type=button]:active {
+    background-color: blue;
+}
+
+#tabela {
+    text-align: center;
+    width: 262px;
+    margin: auto;
+}
+
+table tr td {
+    outline: 1px solid;
+    padding: 8px;
+}
+
+thead {
+    font-weight: bold;
+}
+
+#button {
+    margin: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:450px) {
     #lista-carros {
-        display: flex;
+        flex-direction: column;
+    }
+    iframe {
         height: 300px;
     }
-    
-    #lista-carros li {
-        display: inline;
-        padding: 15px;
-    }
-    
-    .info-carros {
-        display: flex;
-        align-items: center;
-    }
-    
-    .info-carros div {
-        padding: 15px;
-    }
-    
-    h2 {
-        font-size: 1.5em;
-        color: blue;
-    }
-    
-    input[type=button] {
-        background-color: rgb(89, 89, 237);
-        color: white;
-        border: 0;
-        width: 150px;
-        height: 60px;
-        border-radius: 5px;
-        font-size: 1.5em;
-        font-weight: bold;
-        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.19);
-    }
-    
-    input[type=button]:hover {
-        background-color: rgb(33, 33, 247);
-    }
-    
-    input[type=button]:active {
-        background-color: rgb(4, 4, 150);
-    }
-    
-    #button {
-        display: flex;
-        justify-content: space-around;
-        padding: 10px;
-    }
+}
