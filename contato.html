@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/header-footer.css">
+    <link rel="stylesheet" href="style/contato.css">
     <title>Contato</title>
 </head>
 <header>
@@ -19,23 +20,48 @@
         <li><a href="contato.html">Contato</a></li>
     </ul>
 </header>
-<h1>Sobre você</h1>
-<img src="midias/storm.jpg" alt="">
-<form action="">
+<hr>
 
-</form>
+<h2>Sobre você</h2>
+<div id="formulario">
+    <div id="imagem-carro"><img src="midias/storm.jpg" alt="carro storm"></div>
+    <form action="">
+        <div class="div-campo">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="div-campo">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="div-campo">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required>
+        </div>
+
+        <div class="div-campo" style="display: grid; text-align: left;">
+            <label for="contato">Deixe sua mensagem...</label>
+            <textarea name=" contato " id="contato " cols="30 " rows="10 "></textarea>
+        </div>
+        <input type="submit">
+
+    </form>
+</div>
 <footer>
     <div id="redes-sociais">
         <p>Redes sociais:</p>
         <ul>
             <li>
-                <a href="#"><img src="midias/facebook-50.png" alt="Facebook"></a>
+                <a href="https://pt-br.facebook.com/FordBrasil/" target="_blank"><img src="midias/facebook-50.png" alt="Facebook"></a>
+
             </li>
             <li>
-                <a href="#"><img src="midias/youtube-squared-50.png" alt="Youtube"></a>
+                <a href="https://www.youtube.com/channel/UCV1aAz5q_yh3jMOnLa-lk7Q" target="_blank"><img src="midias/youtube-squared-50.png" alt="Youtube"></a>
             </li>
             <li>
-                <a href="#"><img src="midias/instagram-logo-50.png" alt="Instagram"></a>
+                <a href="https://www.instagram.com/fordbrasil/" target="_blank"><img src="midias/instagram-logo-50.png" alt="Instagram"></a>
             </li>
         </ul>
     </div>
